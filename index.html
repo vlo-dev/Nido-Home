@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+     <!--BOOTSTRAP CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <!--TIPOGRAFÍA-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Nunito+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <!--ICON NIDO-->
+    <link rel="icon" type="images/png" href="/images/logos/amarillonegro.png" class="iconnido">
+    <!--ANIMACIONES AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+    <!--TITULO PESTAÑA-->
+    <title>NIDO HOME</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo"> <img src="./images/logos/amarillo y negro.png" class="logonav"><a href="#"></a></div>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="./index.html">Inicio</a></li>                
+                <li><a href="#modelos">Módulos</a></li>                
+                <li><a href="#arquitectura">Arquitectura</a></li>
+                <li><a href="#nido">¿Por qué nido?</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" >
+       
+            <img src="images/imagen hero.png" alt="Nido Home">
+    </section>
+
+   
+
+    <!-- Models Gallery -->
+    <section class="models-gallery" id="modelos">
+         
+         <section class="intro">
+        <p>Nuestros módulos están pensados para adaptarse a las necesidades actuales, ofreciendo espacios flexibles, de fácil instalación y a un costo accesible, ya sea que busques una casa, una oficina o un espacio multifuncional, ofrecemos una solución rápida y eficiente.</p>
+    </section>
+       <h2 class="models-gallery">Nuestros modelos</h2> 
+        
+        <div class="gallery-grid">
+            
+            <div class="model-card">
+                
+                <div class="model-image">NH 1 • 30m²</div>
+                <div class="model-info">
+                    <h3 class="model-name"><span class="model-icon"></span>Nest - 30m²</h3>
+                    <p class="model-specs">1 dormitorio • Baño completo • Cocina integrada</p>
+                </div>
+            </div>
+            <div class="model-card">
+                <div class="model-image">NH 2 • 45m²</div>
+                <div class="model-info">
+                    <h3 class="model-name"><span class="model-icon"></span>Duo - 45m²</h3>
+                    <p class="model-specs">2 dormitorios • Baño completo • Living-comedor</p>
+                </div>
+            </div>
+            <div class="model-card">
+                <div class="model-image">NH 3 • 50m²</div>
+                <div class="model-info">
+                    <h3 class="model-name"><span class="model-icon"></span>Loft - 50m²</h3>
+                    <p class="model-specs">2 dormitorios • 2 baños • Diseño abierto</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Architecture Section -->
+    <section class="architecture" id="arquitectura">
+        <div class="architecture-content">
+            <div class="architecture-text">
+                <h2>Arquitectura Modular</h2>
+                <p>Nuestro enfoque combina diseño contemporáneo con técnicas de construcción eficientes. Cada módulo se fabrica con precisión en taller, garantizando calidad superior y tiempos de entrega optimizados.</p>
+                <p>La construcción modular permite flexibilidad en el diseño, adaptabilidad al terreno y la posibilidad de ampliar tu espacio en el futuro según tus necesidades evolucionen.</p>
+                <p>Con materiales de primera calidad y terminaciones cuidadas al detalle, cada Nido refleja nuestra pasión por la arquitectura funcional y el diseño consciente.</p>
+            </div>
+            <div class="architecture-image"></div>
+        </div>
+    </section>
+
+    <!-- Why Nido Section -->
+    <section class="why-nido" id="nido">
+        <h2 class="section-title">¿Por qué nido?</h2>
+        <div class="pillars">
+            <div class="pillar">
+                <h3 class="pillar-title">Sencillez</h3>
+                <p class="pillar-description">Diseño minimalista que elimina lo innecesario. Cada elemento tiene una función clara, creando espacios ordenados y armoniosos que invitan al bienestar.</p>
+            </div>
+            <div class="pillar">
+                <h3 class="pillar-title">Certeza</h3>
+                <p class="pillar-description">Construcción con estándares de calidad certificados. Plazos de entrega definidos, presupuestos transparentes y garantía sobre materiales y mano de obra.</p>
+            </div>
+            <div class="pillar">
+                <h3 class="pillar-title">Sostenibilidad</h3>
+                <p class="pillar-description">Compromiso con el ambiente mediante materiales eco-eficientes, reducción de residuos en obra y diseños que optimizan el consumo energético.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sustainability Banner -->
+    <section class="sustainability">
+        <div class="sustainability-dark">
+            <h2>Sostenible por naturaleza</h2>
+            <p>Cada Nido está diseñado pensando en minimizar el impacto ambiental. Utilizamos madera certificada, aislaciones de alta eficiencia térmica y sistemas que aprovechan recursos naturales como la luz solar y la ventilación cruzada.</p>
+            <p>La construcción en taller reduce significativamente los residuos y permite un control exhaustivo de cada proceso, garantizando calidad y sustentabilidad en cada detalle.</p>
+        </div>
+        <div class="sustainability-image"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacto">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Nido Home</h3>
+                <p>Arquitectura funcional, pensada para vos.</p>
+                <p>Diseñamos y construimos viviendas modulares contemporáneas que se adaptan a tu estilo de vida.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <a href="mailto:info@nidohome.com.ar">info@nidohome.com.ar</a>
+                <a href="tel:+543514000000">+54 351 400 0000</a>
+                <p>Córdoba, Argentina</p>
+            </div>
+            <div class="footer-section">
+                <h3>Seguinos</h3>
+                <a href="#" target="_blank">Instagram</a>
+                <a href="#" target="_blank">Facebook</a>
+                <a href="#" target="_blank">LinkedIn</a>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Recibí novedades y proyectos inspiradores</p>
+                <form class="newsletter-form" onsubmit="return submitNewsletter(event)">
+                    <input type="email" placeholder="Tu email" required>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Nido Home. Todos los derechos reservados. | Diseño web por Valeria</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('active');
+        }
+
+        function submitNewsletter(event) {
+            event.preventDefault();
+            alert('¡Gracias por suscribirte a nuestro newsletter!');
+            event.target.reset();
+            return false;
+        }
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                    // Close mobile menu if open
+                    document.getElementById('navLinks').classList.remove('active');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
