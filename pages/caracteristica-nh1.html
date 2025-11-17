@@ -513,7 +513,12 @@
             transition: background-color 0.3s;
             border-radius: 4px;
         }
-
+        .final-banner-btn {
+            display: inline-block;   /* Para que respete padding, width, etc */
+            text-decoration: none;   /* Para que no aparezca subrayado */
+            text-align: center;   /* 🔥 Esto centra el texto */
+        }
+    
         .final-banner-btn:hover {
             background-color: #e09000;
         }
@@ -720,9 +725,7 @@
         <nav>
             <ul>
                 <li><a href="/index.html">Inicio</a></li>
-                <li><a href="#arquitectura">Arquitectura</a></li>
-                <li><a href="./modulos.html">Modelos</a></li>
-                <li><a href="#garantia">Garantía</a></li>
+                <li><a href="./modulos.html">Módulos</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
@@ -929,7 +932,7 @@
     <section class="final-banner">
         <div class="final-banner-content">
             <h2>Casa Modular</h2>
-            <button class="final-banner-btn">Ver Modelos</button>
+            <a href="./modulos.html" class="final-banner-btn">Ver Módulos</a>
         </div>
     </section>
 
@@ -956,8 +959,15 @@
                 <h3>Contacto</h3>
                 <p>info@nidohome.ar</p>
                 <p>+54 351 753 0848</p>
-                <p>Córdoba, Argentina</p>
             </div>
+
+            <div class="footer-section">
+                <h3>Ubicación</h3>
+                <p>Parque Industrial - POLO 52</p>
+                <p>A 500 mt de Au. Cordoba - <br> Rosario por Colectora</p>
+                <p>Mza 49 - Lote 17 (ex lote 12)</p>
+            </div>
+
             <div class="footer-section">
                 <h3>Navegación</h3>
                 <a href="index.html#inicio">Inicio</a>
@@ -969,7 +979,7 @@
                 <h3>Seguinos</h3>
                 <div class="social-links">
                     <a href="#" aria-label="Facebook">f</a>
-                    <a href="#" aria-label="Instagram">i</a>
+                    <a href="https://www.instagram.com/nidohome__/" aria-label="Instagram">i</a>
                     <a href="#" aria-label="LinkedIn">in</a>
                 </div>
             </div>
